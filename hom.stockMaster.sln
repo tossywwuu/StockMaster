@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{6CCCF5AB-0269-45D6-9907-3977814AB141}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hom.DataAccess", "hom.DataAccess\hom.DataAccess.csproj", "{1E4DD3F9-43EB-4D8C-8D38-E9B59A6E9859}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hom.Web", "hom.Web\hom.Web.csproj", "{8CA40CFE-C651-4071-B45A-3E2AB1453102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hom.Web.Tests", "hom.Web.Tests\hom.Web.Tests.csproj", "{F1481C7B-4382-48A1-833A-835119121842}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hom.Files", "hom.Files", "{D7D612DF-C22F-40BD-BBA5-6F3EC01B4399}"
+	ProjectSection(SolutionItems) = preProject
+		hom.Files\建库脚本.sql = hom.Files\建库脚本.sql
+		hom.Files\建表脚本.sql = hom.Files\建表脚本.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +21,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6CCCF5AB-0269-45D6-9907-3977814AB141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6CCCF5AB-0269-45D6-9907-3977814AB141}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6CCCF5AB-0269-45D6-9907-3977814AB141}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6CCCF5AB-0269-45D6-9907-3977814AB141}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1E4DD3F9-43EB-4D8C-8D38-E9B59A6E9859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1E4DD3F9-43EB-4D8C-8D38-E9B59A6E9859}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E4DD3F9-43EB-4D8C-8D38-E9B59A6E9859}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E4DD3F9-43EB-4D8C-8D38-E9B59A6E9859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CA40CFE-C651-4071-B45A-3E2AB1453102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA40CFE-C651-4071-B45A-3E2AB1453102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA40CFE-C651-4071-B45A-3E2AB1453102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA40CFE-C651-4071-B45A-3E2AB1453102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1481C7B-4382-48A1-833A-835119121842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1481C7B-4382-48A1-833A-835119121842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1481C7B-4382-48A1-833A-835119121842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1481C7B-4382-48A1-833A-835119121842}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
