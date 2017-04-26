@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hom.Files", "hom.Files", "{
 		hom.Files\建表脚本.sql = hom.Files\建表脚本.sql
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hom.Entity", "hom.Entity\hom.Entity.csproj", "{5897E8AC-577D-458C-AEBD-7EBE8D7BF104}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F1481C7B-4382-48A1-833A-835119121842}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1481C7B-4382-48A1-833A-835119121842}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1481C7B-4382-48A1-833A-835119121842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5897E8AC-577D-458C-AEBD-7EBE8D7BF104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5897E8AC-577D-458C-AEBD-7EBE8D7BF104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5897E8AC-577D-458C-AEBD-7EBE8D7BF104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5897E8AC-577D-458C-AEBD-7EBE8D7BF104}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
